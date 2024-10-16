@@ -105,6 +105,7 @@ update() {
 
 #输入frp执行脚本
 script_up(){
+    sudo mkdir -p /usr/local/bin/
     sudo cp -f /root/frp_install.sh /usr/local/bin/frp
     sudo cp -f /root/frp_install.sh /usr/local/bin/FRP    
     sudo chmod +x /usr/local/bin/frp
